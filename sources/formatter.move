@@ -15,7 +15,7 @@ use sui::hex;
 /// Struct: `Formatter`
 ///
 /// A builder-pattern string composer that allows appending values of different types
-/// (strings, numbers, booleans, addresses, etc.) and later converting them into a single string.
+/// (strings, numbers, booleans, addresses, etc) and later converting them into a single string.
 
 public struct Formatter has drop {
     parts: vector<String>
